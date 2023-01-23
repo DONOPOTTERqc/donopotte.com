@@ -1,0 +1,43 @@
+/* Styles généraux */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F5F5F5;
+}
+
+/* Styles pour le header */
+header {
+  background-color: #09131b;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-style: outset;
+}
+
+header h1 {
+  margin-left: 20px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+  
+
+  
